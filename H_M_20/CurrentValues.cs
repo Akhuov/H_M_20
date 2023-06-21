@@ -10,10 +10,10 @@ namespace H_M_20
     internal class CurrentValues
     {
 
-        public static double Sum = 11400;
-        public static double Won = 1290;
-        public static double Rub = 84.25;
-        public static double Ten = 448.3;
+        public const double Sum = 11400;
+        public const double Won = 1290;
+        public const double Rub = 84.25;
+        public const double Ten = 448.3;
         public static void ShowSumCurrentValueToDollar()
         {
             Console.WriteLine($@"1$ => {Sum} uzs(Uz)");
